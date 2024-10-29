@@ -1,0 +1,3 @@
+H:/Code/C++/Frostchef-IoT/cmake-build-debug/CMakeFiles/Frostchef_IoT.dir
+H:/Code/C++/Frostchef-IoT/cmake-build-debug/CMakeFiles/edit_cache.dir
+H:/Code/C++/Frostchef-IoT/cmake-build-debug/CMakeFiles/rebuild_cache.dir

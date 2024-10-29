@@ -1,0 +1,4 @@
+"D:\Programs\JetBrains Toolbox\CLion\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/Programs/JetBrains Toolbox/CLion/bin/ninja/win/x64/ninja.exe" -G Ninja -S H:\Code\C++\Frostchef-IoT -B H:\Code\C++\Frostchef-IoT\cmake-build-debug
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: H:/Code/C++/Frostchef-IoT/cmake-build-debug

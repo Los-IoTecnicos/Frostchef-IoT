@@ -1,0 +1,14 @@
+{
+  "name": "mq2-gas-sensor",
+  "author": "Diego Sanchez",
+  "pins": [
+    "VCC",
+    "VDD",
+    "D0",
+    "A0",
+    "",
+    "",
+    ""
+  ],
+  "controls": []
+}
