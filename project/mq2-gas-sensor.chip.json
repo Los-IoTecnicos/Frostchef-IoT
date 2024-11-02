@@ -2,13 +2,18 @@
   "name": "mq2-gas-sensor",
   "author": "Diego Sanchez",
   "pins": [
+    "GND",
     "VCC",
-    "VDD",
     "D0",
     "A0",
     "",
     "",
     ""
   ],
-  "controls": []
+  "controls": [
+    { "id": "methane_threshold", "label": "Methane Sensitivity %",
+      "type": "range", "min": 0, "max": 100, "step": 1},
+    { "id": "threshold", "label": "Clean Air Threshold %",
+      "type": "range", "min": 0, "max": 100, "step": 1}
+  ]
 }

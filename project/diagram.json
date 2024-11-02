@@ -3,7 +3,7 @@
   "author": "Diego sanchez",
   "editor": "wokwi",
   "parts": [
-    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 4.7, "left": 4.6, "attrs": {} },
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 4.7, "left": -14.6, "attrs": {} },
     { "type": "wokwi-hc-sr04", "id": "ultrasonic1", "top": -104.1, "left": -167.3, "attrs": {} },
     { "type": "wokwi-dht22", "id": "dht1", "top": -47.7, "left": 196.2, "attrs": {} },
     {
@@ -25,7 +25,7 @@
       "id": "lcd1",
       "top": 64,
       "left": 360.8,
-      "attrs": { "pins": "i2c" }
+      "attrs": { "pins": "i2c", "background": "blue", "color": "white" }
     },
     {
       "type": "wokwi-resistor",
@@ -63,8 +63,10 @@
     [ "lcd1:SCL", "esp:D22", "purple", [ "h0" ] ],
     [ "lcd1:SDA", "esp:D21", "gold", [ "h-249.6", "v-37.8" ] ],
     [ "lcd1:VCC", "esp:VIN", "red", [ "h0" ] ],
-    [ "chip1:VCC", "esp:3V3", "red", [ "h-19.2", "v268.8" ] ],
-    [ "chip1:VDD", "esp:D18", "green", [ "h-48", "v182.4" ] ]
+    [ "chip1:VCC", "esp:3V3", "red", [ "h-28.8", "v134.4", "h-48", "v134.4" ] ],
+    [ "chip1:GND", "esp:GND.1", "black", [ "h-19.2", "v259.3" ] ],
+    [ "chip1:D0", "esp:D23", "green", [ "h-76.8", "v115.1" ] ],
+    [ "chip1:A0", "esp:D4", "cyan", [ "h-48", "v201.5" ] ]
   ],
   "dependencies": {}
 }
